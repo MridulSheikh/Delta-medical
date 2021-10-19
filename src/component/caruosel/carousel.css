@@ -1,0 +1,41 @@
+.item-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.363),rgba(0, 0, 0, 0.11)),url("./../../assets/images/doctor-5707722_1920.jpg") ;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    text-align: center;
+    padding: 200px 50px;
+    width: 100%;
+}
+.item-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.363),rgba(0, 0, 0, 0.11)), url("./../../assets/images/doctor-6701410_1920.jpg") ;
+    background-position: center center;
+    background-size: cover;
+    height: 85vh;
+    text-align: center;
+    padding: 200px 50px;
+    width: 100%;
+}
+.item-3{
+    background: linear-gradient(rgba(163, 129, 97, 0.363),rgba(0, 0, 0, 0.11)), url("./../../assets/images/human-skeleton-163715.jpg") ;
+    background-position: center center;
+    background-size: cover;
+    height: 85vh;
+    text-align: center;
+    padding: 200px 50px;
+    width: 100%;
+}
+h1{
+    color: rgb(221, 209, 209);
+    margin-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media only screen and (max-width: 688px){
+    .item-1,
+    .item-2,
+    .item-3{
+        height: 60vh;
+        width: 100%;
+        padding: 10px 0px;
+    }
+}

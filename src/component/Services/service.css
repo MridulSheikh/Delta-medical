@@ -1,0 +1,7 @@
+@media only screen and (max-width: 688px){
+    .card{
+        padding-right: 0px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

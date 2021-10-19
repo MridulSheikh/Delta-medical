@@ -1,0 +1,12 @@
+/* mobile friendly */
+@media only screen and (max-width: 688px) {
+    img{
+        width: 100%;
+    }
+    .error{
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

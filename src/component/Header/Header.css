@@ -1,0 +1,51 @@
+.navbar{
+    background-color: #137200;
+}
+.login-btn{
+    background-color: rgba(253, 59, 0, 0.822);
+    border: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+.logo{
+font-family:cursive;
+}
+.menu-item{
+    color: rgba(255, 255, 255, 0.699);
+    text-decoration: none;
+    font-weight: 600;
+    font-family:sans-serif;
+}
+.menu-item:hover{
+  color: rgba(255, 255, 255, 0.918);
+}
+.photo{
+    border-radius: 50%;
+}
+.logoutbutton{
+    border-radius: 10px;
+}
+/* screen friendly */
+@media only screen and (max-width: 688px){
+    .hidden{
+        display: none;
+    }
+    .singin{
+        margin-left: 5px;
+    }
+    .logo i{
+        color: rgb(255, 255, 255);
+    }
+    .photo{
+        width: 25px;
+        margin-right: 5px;
+    }
+    .username{
+        
+    }
+    .unperson{
+        margin-right: 5px;
+    }
+}

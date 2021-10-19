@@ -1,0 +1,56 @@
+[
+    {
+        "id" : "1",
+        "servicename" : "Functional Medicine",
+        "about" : "Do you wonder what your lab values really mean? How do you treat without medication? What can you do with your diet and lifestyle to prevent illness? We can answer these questions and more.",
+        "img" : "https://peninsulaintegrative.com/wp-content/uploads/2017/03/rendered-580x254.jpg",
+        "doctor":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_AhHFfOzwsP7tccL5_IzNEGVPhkUzQbsSTw&usqp=CAU",
+        "name" : "Dr.smith",
+        "phone" : "01883992408"
+    },
+    {
+        "id" : "2",
+        "servicename" : "Telemedicine and Virtual Visits",
+        "about" : "Convenient and modern video platforms allow us to see you for visits. We can share your lab or imaging order, review your treatment plan, and send your products, all using our online platform, CharmEHR.",
+        "img" : "https://peninsulaintegrative.com/wp-content/uploads/2017/03/water-drop-580x254.jpg",
+        "doctor":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_AhHFfOzwsP7tccL5_IzNEGVPhkUzQbsSTw&usqp=CAU",
+        "name" : "Dr.Neha",
+        "phone" : "018832695008"
+    },
+    {
+        "id" : "3",
+        "servicename" : "Integrative Pediatrics",
+        "about" : "Your child's first years are full of many milestones and many more questions. Our pediatrician provides support for general health, vaccination questions, and everything in between, including after hours and sick visits.",
+        "img" : "https://peninsulaintegrative.com/wp-content/uploads/2017/04/Dr.-Kemnec-pediatrics-shot-1-580x254.jpg",
+        "doctor":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_AhHFfOzwsP7tccL5_IzNEGVPhkUzQbsSTw&usqp=CAU",
+        "name" : "Dr.Neha",
+        "phone" : "01385292328"
+    },
+    {
+        "id" : "4",
+        "servicename" : "Functional Endocrinology",
+        "about" : "Hypothyroidism, fertility, adrenal dysfunction and blood sugar issues are a just few of the conditions we treat with functional endocrinology. We can help you to decrease dependency on medication and restore balance.",
+        "img" : "https://peninsulaintegrative.com/wp-content/uploads/2017/03/thyroid-butterfly-580x254.jpg",
+        "doctor":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_AhHFfOzwsP7tccL5_IzNEGVPhkUzQbsSTw&usqp=CAU",
+        "name" : "Dr.Nazir",
+        "phone" : "01883992486"
+    },
+    {
+        "id" : "5",
+        "servicename" : "Perineural Injection Therapy for Pain",
+        "about" : "By reducing inflammation in the small nerves that lie just underneath the skin, neural and neuralprolo reset pain signals. These injection therapies.",
+        "img":"https://peninsulaintegrative.com/wp-content/uploads/2017/03/injection-therapy-580x254.jpg",
+        "doctor":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_AhHFfOzwsP7tccL5_IzNEGVPhkUzQbsSTw&usqp=CAU",
+        "name" : "Dr.jhatka",
+        "phone" : "0188359724"
+    },
+    {
+        "id" : "6",
+        "servicename" : "Digestive Health",
+        "about" : "Having digestive problems, such as IBS, can take over your life. We use unique tools to diagnose and treat digestive disorders that are usually missed by conventional approaches.",
+        "img" : "https://peninsulaintegrative.com/wp-content/uploads/2017/03/healthy-salad-580x254.jpg",
+        "doctor":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_AhHFfOzwsP7tccL5_IzNEGVPhkUzQbsSTw&usqp=CAU",
+        "name" : "Dr.nazir",
+        "phone" : "01359742561"
+    }
+]
