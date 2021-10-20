@@ -14,7 +14,6 @@ const Footer = () => {
         </div>
         <div className="d-flex justify-content-center align-items-center text-center ">
         <div>
-        <h5 className=""></h5>
         <p className="mt-4">© all rights are reseve</p>
         </div>
         </div>

@@ -3,41 +3,51 @@ import { GoogleAuthProvider, getAuth, signInWithPopup, onAuthStateChanged,signOu
 import FirebaseInitialize from '../Firebase/Firebase.init';
 FirebaseInitialize()
 const UseFirebase = () => {
-    const [name, setName]=useState('')
-    const [password,setPassword]=useState('')
-    const [email, setEmail] = useState('')
+    const [name, setName]=useState('')   // user name 
+    const [password,setPassword]=useState('')   // set user password
+    const [email, setEmail] = useState('')   // set user email
     const [user, setUser] = useState({});
     const [error, setError] = useState();
+    const [isLoading, setIsLoading] = useState(true);
     const Googleprovider = new GoogleAuthProvider();
     const auth = getAuth();
     const sininWithgoogle = () =>{
+      setIsLoading(true)
         signInWithPopup(auth, Googleprovider)
         .then(result =>{
             setUser(result.user)
         })
+        .finally(()=> setIsLoading(false))
         .catch(error => {
        setError(error)
         })
     }
+    // log out user
     const Logout = ()=>{
+      setIsLoading(true)
         signOut(auth)
         .then(()=>{
             setUser({})
         })
+        .finally(()=> setIsLoading(false))
     }
     useEffect(()=>{
         onAuthStateChanged(auth, user =>{
             if (user) {
                 setUser(user)
               } 
+              setIsLoading(false)
         })
     },[])
+    // set email password
     const EmailChange = e =>{
         setEmail(e.target.value)
     }
     const handlePassword = e =>{
         setPassword(e.target.value)
     }
+
+    // regitration handle
     const HandleReg = e =>{
         setError('')
         e.preventDefault();
@@ -56,6 +66,8 @@ const UseFirebase = () => {
           setError(errorMessage)
         });
       }
+
+      //user sing in handle
       const HandleSingin = e =>{
         setError('')
         e.preventDefault();
@@ -74,6 +86,7 @@ const UseFirebase = () => {
           setError(errorMessage)
         });
       }
+      // handle change name
       const handlechangeName = e =>{
         setName(e.target.value)
     }
@@ -101,7 +114,8 @@ const UseFirebase = () => {
         handlePassword,
         HandleReg,
         HandleSingin,
-        handlechangeName
+        handlechangeName,
+        isLoading
     };
 };
 

@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import {Link, NavLink } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
-import UseFirebase from '../../hooks/UseFirebase';
 import "./Header.css"
 const Header = () => {
   const {user,Logout} = useAuth();

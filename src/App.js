@@ -11,7 +11,6 @@ import Singup from './Pages/singup/SingUp';
 import Service from './Pages/Services/Service';
 import AuthProvider from './context/AuthProvider';
 import About from './Pages/About/About';
-import { useEffect, useState } from 'react';
 import PrivateRout from './component/PrivetRoute/PrivetRoute';
 function App() {
   return (
