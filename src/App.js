@@ -12,6 +12,7 @@ import Service from './Pages/Services/Service';
 import AuthProvider from './context/AuthProvider';
 import About from './Pages/About/About';
 import { useEffect, useState } from 'react';
+import PrivateRout from './component/PrivetRoute/PrivetRoute';
 function App() {
   return (
     <>
@@ -31,9 +32,9 @@ function App() {
  <Route path="/singup">
  <Singup></Singup>
  </Route>
- <Route path="/service">
+ <PrivateRout path="/service">
  <Service></Service>
- </Route>
+ </PrivateRout>
  <Route path="/about">
  <About></About>
  </Route>

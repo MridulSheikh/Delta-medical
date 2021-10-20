@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import doctor from "./../../assets/images/doctor-14044.png"
 const About = () => {
     return (
@@ -22,10 +22,10 @@ const About = () => {
       <h2 className="text-center"><i className="fas fa-stethoscope"></i> Professional Doctors</h2>
     </Col>
     <Col xs={6} md={4}>
-      <h2 className="text-center"><i class="fas fa-shield-alt"></i> Exclusive Blood Bank</h2>
+      <h2 className="text-center"><i className="fas fa-shield-alt"></i> Exclusive Blood Bank</h2>
     </Col>
     <Col xs={6} md={4}>
-    <h2 className="text-center"><i class="fas fa-tasks d-block"></i> Track your Progress</h2>
+    <h2 className="text-center"><i className="fas fa-tasks d-block"></i> Track your Progress</h2>
     </Col>
   </Row>
     </div>
